@@ -127,7 +127,7 @@ var Login = function () {
 
 		function format(state) {
             if (!state.id) return state.text; // optgroup
-            return "<img class='flag' src='assets/img/flags/" + state.id.toLowerCase() + ".png'/>&nbsp;&nbsp;" + state.text;
+            return "<img class='flag' src='https://oslanto.github.io/patamorgana/assets/img/flags/" + state.id.toLowerCase() + ".png'/>&nbsp;&nbsp;" + state.text;
         }
 
 
